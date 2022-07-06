@@ -1,0 +1,44 @@
+/* Css reset  */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* ..... Utility Classes .....  */
+h1{
+    font-size: 75px;
+    font-weight: 700;
+}
+
+/* .... banner-topr section .....  */
+.banner-top{
+    background: linear-gradient(rgb(37 34 34 / 24%), rgb(2 2 2 / 37%)), url(../images/donation6.jpg);
+    /* background-image: url(../images/donation6.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:20px;
+    height: 98vh;
+    text-align: center;
+    color: #fff;
+
+}
+.banner-heading {
+    margin-top: 155px;
+}
+.banner-text{
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    padding: 0 26%;
+}
+.donate-btn{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: tomato;
+    border-radius: 8px;
+}
