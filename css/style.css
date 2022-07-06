@@ -8,10 +8,16 @@ body{
 
 /* ..... Utility Classes .....  */
 h1{
-    font-size: 75px;
+    font-size: 50px;
     font-weight: 700;
 }
-
+.margin-top{
+    margin-top: 150px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
 /* .... banner-topr section .....  */
 .banner-top{
     background: linear-gradient(rgb(37 34 34 / 24%), rgb(2 2 2 / 37%)), url(../images/donation6.jpg);
@@ -24,6 +30,9 @@ h1{
     color: #fff;
 
 }
+.banner-heading{
+    font-size: 75px;
+}
 .banner-heading {
     margin-top: 155px;
 }
@@ -32,6 +41,7 @@ h1{
     font-weight: 500;
     margin-bottom: 50px;
     padding: 0 26%;
+    line-height: 1.6;
 }
 .donate-btn{
     text-decoration: none;
@@ -41,4 +51,54 @@ h1{
     font-weight: 400;
     background-color: tomato;
     border-radius: 8px;
+}
+
+
+
+/* ............. donate today section ...........  */
+.donate-today{
+    text-align: center;
+}
+.donate-text{
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    padding: 0 26%;
+    line-height: 1.6;
+    color: #707070;
+}
+.tk-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.tk-row .tk-item{
+    font-size: 32px;
+    margin-right: 20px;
+    padding:40px 25px;
+    background-color: #f9f9f9;
+}
+.bg-color{
+    background-color: #f99e8e6b !important;
+    border: 2px solid #ff5a5a;
+    border-radius: 7px;
+    color: #ff5959;
+}
+.tk-amount input{
+    width: 100%;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #b3b3b3;
+    font-size: 18px;
+    padding: 10px 0;
+}
+::placeholder{
+    color: #b3b3b3;
+}
+.tk-amount {
+    width: 45%;
+    margin: 0 auto;
+    padding-bottom: 40px;
 }
